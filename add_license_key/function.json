@@ -1,0 +1,20 @@
+{
+  "bindings": [
+    {
+      "name": "request",
+      "type": "httpTrigger",
+      "direction": "in",
+      "methods": [
+        "put"
+      ],
+      "route": "v1/user-license/create",
+      "authLevel": "function"
+    },
+    {
+      "name": "$return",
+      "type": "http",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}
